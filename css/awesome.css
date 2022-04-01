@@ -1,0 +1,45 @@
+.awesome {
+    margin: 0 auto;
+}
+.title {
+    margin-bottom: 34px;
+}
+.line {
+    width: 64px;    
+    height: 2px;
+    border: 1px solid #E72424;
+    margin:  34px auto;
+}
+h2 {
+    text-align: center;
+}
+.awesome-text {
+    text-align: center;
+    color: #86878B;
+}
+.wrap {
+    display: flex;
+    align-items: center;
+    margin: 68px;
+}
+.card {
+    max-width: 350px;
+    text-align: center;
+}
+.card-img {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #E72424;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.card-title {
+    margin-bottom: 16px;
+}
+.card-text {
+}
