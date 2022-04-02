@@ -25,6 +25,7 @@ h2 {
 .card {
     max-width: 350px;
     text-align: center;
+    padding: 15px;
 }
 .card-img {
     width: 70px;
