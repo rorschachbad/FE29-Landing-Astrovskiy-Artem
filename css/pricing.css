@@ -1,0 +1,47 @@
+.pricing-text {
+    text-align: center;
+    color: #86878B;
+    margin-bottom: 68px;
+}
+
+.pricing {
+    background: #F5F5F5;
+    padding: 80px 0;
+}
+.pricing-list-bg {
+    background: #333333;
+    color: #fff;
+}
+
+.pricing-list {
+    max-width: 340px;
+    text-align: center;
+    margin: 0 15px;
+}
+.pricing-list li{
+    width: 340px;
+}
+.pricing-list-tariff {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 2px;
+    line-height: 50px;
+}
+.pricing-list-cost {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 2px;
+    line-height: 100px;
+}
+.pricing-list-suitables {
+    font-size: 14px;
+    color: #86878B;
+    line-height: 50px;
+}
+.pricing-list-item {
+    font-size: 14px;
+    color: #86878B;
+    background: #fff;
+    margin-top: 4px;
+    line-height: 40px;
+}
