@@ -1,0 +1,46 @@
+.axure {
+    position: relative;
+    padding: 80px 0;
+    background-image: url(../img/bg/background\ 1.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100% 100%;
+}
+.axure::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color:  rgba(0, 0, 0, 0.55);
+
+}
+.axure-title_color {
+    text-align: center;
+    color: #fff;
+}
+.axure-title_color::after {
+    content: '';
+    width: 64px;
+    height: 2px;
+    display: block;
+    margin: 30px auto;
+    background-color: #fff;
+}
+.axure-text p{
+    text-align: center;
+    color: #fff;
+}
+.axure-btn {
+    max-width: 135px;
+    border: 1px solid #fff;
+    margin: 68px auto 0;
+}
+.axure-btn a {
+    color: #fff;
+    display: block;
+    text-align: center;
+    line-height: 42px;
+}
