@@ -8,6 +8,7 @@
     max-width: 300px;
     margin: 0 15px;
 }
+
 .customers-card-comment {
     position: relative;
     background-color: #E2E2E2;
@@ -25,14 +26,16 @@
     display: block;
     width: 0; 
     height: 0; 
-    border-left: 14px solid transparent; 
-    border-right: 14px solid transparent; 
-    border-top: 18px solid #E2E2E2;
+    border-left: 16px solid transparent; 
+    border-right: 16px solid transparent; 
+    border-top: 16px solid #E2E2E2;
 }
+
 .customers-card-user {
     display: flex;
     justify-content: space-evenly;
 }
+
 .customers-card-user-avatar {
     width: 70px;
     height: 70px;
@@ -50,6 +53,7 @@
     align-items: flex-end;
     justify-content:space-evenly;
 }
+
 .customers-span-name {
     font-weight: 700;
     font-size: 20px;

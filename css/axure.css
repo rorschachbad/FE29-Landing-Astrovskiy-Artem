@@ -19,7 +19,10 @@
 }
 .axure-title_color {
     text-align: center;
-    color: #fff;
+    color: #fff;    
+    line-height: 42px;
+    font-weight: 400;
+    font-size: 36px;
 }
 .axure-title_color::after {
     content: '';
@@ -27,11 +30,11 @@
     height: 2px;
     display: block;
     margin: 30px auto;
-    background-color: #fff;
+    background-color: rgba(255,255,255,100);
 }
 .axure-text p{
     text-align: center;
-    color: #fff;
+    color: rgba(255,255,255,80%);
 }
 .axure-btn {
     max-width: 135px;
