@@ -16,6 +16,17 @@
     width: 340px;
     text-align: center;
     margin: 0 15px;
+    transition: 0.5s;
+}
+
+.pricing-list:hover {
+    box-shadow: 0 15px 5px rgba(0, 0, 0, 70%);
+    transform: translate(0, -20px);
+}
+.pricing-list li:hover {
+    box-shadow: 0 7px 2px rgba(0, 0, 0, 30%);
+    transform: translate(-5px, -10px);
+    cursor: pointer;
 }
 
 .pricing-list-tariff {

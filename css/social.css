@@ -1,0 +1,35 @@
+.social {
+    background-color: #F8EFEF;
+    padding: 8px 0;
+}
+.social-container {
+    display: flex;
+    justify-content: space-between;
+}
+.social-wrap {
+    width: 370px;
+}
+.social-title {
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+.social-text {
+    color: #86878B;
+}
+.social-list {
+    width: 680px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-list-item a{
+    font-size: 35px;
+    color: #86878B;
+    transition: 0.25s;
+}
+.social-list-item a:hover {
+    transform: scale(1.4);
+    color: rgb(80, 223, 252);
+}
